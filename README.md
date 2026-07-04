@@ -17,7 +17,7 @@ Example:
 
 ## 🌐 Live Demo
 
-🔗 https://your-vercel-link.vercel.app
+🔗 https://shortest-path-visualizer-five.vercel.app/
 
 ---
 
