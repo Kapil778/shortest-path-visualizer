@@ -4,14 +4,13 @@ An interactive web application that visualizes how pathfinding algorithms discov
 
 ## 📸 Preview
 
-> Add screenshots or a GIF of your application here.
+| Home Screen | 
+| :---: |
+| ![Home](home.png) |
 
-Example:
-
-- Home Screen
-- Maze Generation
-- Dijkstra Visualization
-- A* Visualization
+| Dijkstra Algorithm | A* Algorithm |
+| :---: | :---: |
+| ![Dijkstra](dijkstra.png) | ![Astar](astar.png) |
 
 ---
 
