@@ -6,11 +6,11 @@ An interactive web application that visualizes how pathfinding algorithms discov
 
 | Home Screen | 
 | :---: |
-| ![Home](home.png) |
+| ![Home](Screenshots/home.png) |
 
 | Dijkstra Algorithm | A* Algorithm |
 | :---: | :---: |
-| ![Dijkstra](dijkstra.png) | ![Astar](astar.png) |
+| ![Dijkstra](Screenshots/dijkstra.png) | ![Astar](Screenshots/astar.png) |
 
 ---
 
