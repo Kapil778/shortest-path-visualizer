@@ -1,16 +1,172 @@
-# React + Vite
+# 🚀 Shortest Path Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive web application that visualizes how pathfinding algorithms discover the shortest path between two nodes. Users can draw obstacles, generate random mazes, move the start/end nodes, and compare Dijkstra's Algorithm with the A* Search Algorithm through real-time animations.
 
-Currently, two official plugins are available:
+## 📸 Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+> Add screenshots or a GIF of your application here.
 
-## React Compiler
+Example:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Home Screen
+- Maze Generation
+- Dijkstra Visualization
+- A* Visualization
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🌐 Live Demo
+
+🔗 https://your-vercel-link.vercel.app
+
+---
+
+## ✨ Features
+
+- 🎯 Visualize **Dijkstra's Algorithm**
+- ⚡ Visualize **A* Search Algorithm**
+- 🧱 Draw and erase walls
+- 🖱️ Drag Start and End nodes
+- 🎲 Generate Random Maze
+- 🎞️ Adjustable animation speed
+- 📊 Statistics Panel
+  - Algorithm Used
+  - Visited Nodes
+  - Path Length
+  - Execution Time
+- 🧹 Clear Path
+- 🧹 Clear Walls
+- 🔄 Reset Grid
+- 🎨 Smooth animations and modern responsive UI
+
+---
+
+## 🛠️ Tech Stack
+
+- React.js
+- JavaScript (ES6)
+- HTML5
+- CSS3
+- Vite
+
+---
+
+## 🧠 Algorithms Implemented
+
+### Dijkstra's Algorithm
+
+- Finds the shortest path in weighted graphs.
+- Guarantees the optimal path.
+- Explores nodes based on minimum distance.
+
+**Time Complexity**
+
+```
+O(V²)
+```
+
+---
+
+### A* Search Algorithm
+
+- Uses a heuristic (Manhattan Distance).
+- Faster than Dijkstra in most practical scenarios.
+- Guarantees the shortest path when the heuristic is admissible.
+
+**Time Complexity**
+
+```
+O(E)
+```
+
+(With an efficient priority queue implementation.)
+
+---
+
+## 🚀 Getting Started
+
+Clone the repository
+
+```bash
+git clone https://github.com/Kapil778/shortest-path-visualizer.git
+```
+
+Move into the project
+
+```bash
+cd shortest-path-visualizer
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:5173
+```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│── algorithms/
+│     ├── dijkstra.js
+│     ├── astar.js
+│
+│── App.jsx
+│── App.css
+│── main.jsx
+
+public/
+
+package.json
+```
+
+---
+
+## 🎮 How to Use
+
+1. Draw walls by clicking and dragging on the grid.
+2. Drag the Start and End nodes.
+3. Select an algorithm.
+4. Adjust animation speed.
+5. Click **Visualize**.
+6. Watch the algorithm explore the grid and highlight the shortest path.
+
+---
+
+## 📈 Future Improvements
+
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+- Greedy Best First Search
+- Bidirectional Search
+- Recursive Division Maze
+- Prim's Maze Algorithm
+- Kruskal Maze Algorithm
+- Weighted Nodes
+- Diagonal Movement
+- Mobile Responsive Layout
+
+---
+
+## 👨‍💻 Author
+
+**Kapil Sharma**
+
+GitHub: https://github.com/Kapil778
+---
+
+## ⭐ If you found this project helpful, consider giving it a star!
