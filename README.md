@@ -166,6 +166,7 @@ package.json
 **Kapil Sharma**
 
 GitHub: https://github.com/Kapil778
+LinkedIn: https://www.linkedin.com/in/kapil-sharma-470aba338
 ---
 
 ## ⭐ If you found this project helpful, consider giving it a star!
